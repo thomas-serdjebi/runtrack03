@@ -1,4 +1,4 @@
-function jourtravail(date){
+function jourtravailles(date){
 
     var a = date;
 
@@ -28,7 +28,7 @@ function jourtravail(date){
             break;
         }
     }
-    
+
     if(f==false)
     {
         if(a.getDay()==6||a.getDay()==0)
@@ -44,6 +44,6 @@ function jourtravail(date){
 
 }
 var j = new Date("may 01 2022");
-jourtravail(j);
+jourtravailles(j);
 
 
