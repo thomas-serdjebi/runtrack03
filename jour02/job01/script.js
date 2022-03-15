@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
     console.log("DOM entièrement chargé et analysé");
 
-    let article = document.getElementById("citation");
+    let article = document.getElementById("citation").textContent;
 
     let button = document.getElementById("button");
 
