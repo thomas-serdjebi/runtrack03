@@ -1,0 +1,9 @@
+#melangees {
+    display:flex;
+    flex-direction:row;
+}
+
+.rangees {
+    display:flex;
+    flex-direction:row;
+}
